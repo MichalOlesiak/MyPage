@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    margin-top: -10px;
+}
+body{
+    width: 100%;
+}
+.navbar-brand{
+    font-size: 4rem;
+    color:black;
+    margin-left: 25px;
+    font-family: 'League Gothic', sans-serif;
+}
+.navbar-brand:hover{
+    color:black;
+}
+.nav-link{
+    font-size: 2rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+}
+
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 60%;
+    border-radius: 50px;
+    outline: none;
+    border: solid green;
+    margin-right: -35px;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: 0;
+    border: none;
+    background: green;
+    color: white;
+    font-weight: 400;
+    border-radius: 50px;
+    font-family: 'League Gothic', sans-serif;
+}
+.main{
+    background: url(../img/tuscany-landscape-4-1500765.jpg) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 500;
+
+}
+.btn1{
+    height: 40px;
+    width: 15%;
+    border: none;
+    outline:none;
+    background-color: green;
+    border-radius: 50px;
+    color: white;
+}
+.col-lg-5 h1{
+    font-weight: 700;
+}
+.row .col-lg-12 .btn1{
+    transform: translateY(50%);
+}
+.products{
+    box-shadow: 0 3px 5px black;
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 15%;
+    background-color: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    border: 2px solid white;
+    width: 35%;
+    outline:  none;
+    color: white;
+    background: black;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news .col-lg-11{
+ margin:0;
+}
+.news p{
+    margin: 0;
+}
+.fab{
+    font-size:  2.5rem;
+    padding: 5px;
+}
